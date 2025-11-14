@@ -134,12 +134,9 @@ Building real-world full stack workflows
 
 Pull requests and suggestions are welcome!
 
-📞 Contact
 
-If you'd like to connect or provide feedback:
-
-Name: Pandu
+Name: nikitha
 📧 Add your email here
-🔗 LinkedIn: Add your LinkedIn profile link
+🔗 LinkedIn: www.linkedin.com/in/prathipathi-venkata-sai-nikitha-93b33230a
 
 ⭐ Thank You for Visiting Fusion Delight!
