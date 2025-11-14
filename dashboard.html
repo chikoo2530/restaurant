@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard - Fusion Delight</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="dashboard">
+<h2>Welcome, {{ username }}</h2>
+<p>Email: {{ user.email }}</p>
+
+{% if reservation %}
+<h3>Your Reservation Details:</h3>
+<p>Date: {{ reservation.date }}</p>
+<p>Time: {{ reservation.time }}</p>
+<p>People: {{ reservation.people }}</p>
+{% else %}
+<p>No reservation found.</p>
+{% endif %}
+
+<a href="/logout" class="btn">Logout</a>
+</div>
+</body>
+</html>

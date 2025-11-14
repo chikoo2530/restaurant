@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reserve Table - Fusion Delight</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="form-container">
+<h2>Reserve Your Table</h2>
+<form method="POST">
+<input type="date" name="date" required>
+<input type="time" name="time" required>
+<input type="number" name="people" placeholder="Number of People" required>
+<button type="submit">Reserve</button>
+</form>
+</div>
+</body>
+</html>
